@@ -32,6 +32,11 @@ h2{
     text-shadow: 0.5px 0.5px black;
     font-size: large;
 }
+h2.coor{
+    color: rgb(98, 81, 255);
+    font-size: 25px;
+    text-shadow: none;
+}
 ol li{
     list-style-type:none;
     color: rgb(255, 255, 255);
@@ -48,7 +53,6 @@ div.coor{
     margin-left: auto;
     margin-right: auto;
     font-size: 40px;
-    text-shadow: 1px 0px white;
 }
 div.haut{
     text-align: left;
@@ -77,7 +81,19 @@ div.haut{
     border-radius: 8px;
 }
 div.name{
-    background-color: rgba(112, 112, 112, 0.411);
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(175, 104, 22));
+}
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
 }
 /*BG*/
 #background-video {
