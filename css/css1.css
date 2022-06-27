@@ -5,6 +5,22 @@
     border: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-areas: 
+    "name name coor coor"
+    "comp comp xp xp"
+    "comp comp xp xp"
+    "comp comp forma forma"
+    "comp comp forma forma"
+    "infos infos infos infos"
+    "infos infos infos infos"
+    "foot foot foot foot"
+    ;
+}
 body{
     box-sizing: border-box;
     width: 100%;
